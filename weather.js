@@ -25,7 +25,7 @@ async function WeatherInfo(cityName) {
 
     imageSrc = `images/${weatherCondition}.png`
     weatherIcon.src = imageSrc
-    weatherIcon.srcset = "/images/rain.png"
+    weatherIcon.srcset = "images/rain.png"
 
     document.querySelector(".weather").style.display = "block"
 
